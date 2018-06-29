@@ -1,0 +1,36 @@
+sudo -i
+
+
+
+wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
+
+
+
+如果出现蓝屏 选择 NO
+
+一会需要重启 输入 y
+
+
+
+sudo -i
+
+
+
+bash bbr.sh start
+
+
+
+第一种方案 安装 shadowsocksR
+
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+
+
+
+./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
+
+
+
+第二种方案 安装 shadowsocksR
+
+wget -N --no-check-certificate https://softs.fun/Bash/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+
